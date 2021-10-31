@@ -1,0 +1,37 @@
+body {
+  background: #f1ecc3;
+}
+.header {
+  padding-top: 6rem;
+}
+
+.isi p {
+  font-size: 18px;
+  text-align: justify;
+}
+#main-nav {
+  background-color: rgba(81, 94, 99, 0);
+  transition: 0.5s;
+}
+
+h3 {
+  text-align: justify;
+  font-size: 24px;
+  font-weight: bold;
+}
+a {
+  font-size: 18px;
+}
+footer {
+  background-color: #57837b;
+  padding: 1rem;
+  font-size: 24px;
+}
+
+.btn-basic {
+  background-color: #eceeef;
+  color: #818a91;
+}
+.btn-basic:hover {
+  opacity: 0.7;
+}

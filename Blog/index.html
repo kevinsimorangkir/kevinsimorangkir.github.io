@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="/style.css" />
+    <!-- Blog CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Icon CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Cara Membuat Github Page</title>
+  </head>
+  <body id="body">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="main-nav">
+      <div class="container">
+        <a class="navbar-brand" href="https://kevinsimorangkir.github.io"
+          ><i class="fa fa-arrow-left"></i> Kembali</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Header -->
+    <div class="header">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-7">
+            <h1 class="fw-bold" style="font-size: 60px">Cara Membuat Github Page</h1>
+            <h2 class="text-muted">30 Oktober 2021</h2>
+            <hr />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Header -->
+    <!-- Isi -->
+    <div class="isi">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-7">
+            <img src="img/github-logo.jpeg" alt="githubpage" width="750" />
+            <br>
+            <br>
+            <p>
+              Halo people! saya akan membahas mengenai cara membuat Github Pages 
+              menggunakan sistem Git.
+            </p>
+            <p>
+              Mungkin anda ingin meng-hosting web anda secara gratis agar dapat diakses oleh orang di seluruh Dunia, maka Github 
+              Pages bisa menjadi solusi untuk saling bertukar pilihan.
+            </p>
+            <p>
+              Github  Pages merupakan layanan hosting website gratis dari Github. Seluruh file website akan di-hosting 
+              melalui GitHub, artinya apabila anda lakukan perubahan anda bisa melakukannya melalui github atau 
+              langsung dari pc melalui perintah git.
+            </p>
+            <p>Berikut merupakan cara membuat Github Pages menggunakan sistem Git:</p>
+            <br>
+            <h3>
+              1.	Pastikan anda telah memiliki akun Github dan sudah menginstall git bash pada komputer.
+            </h3>
+            <br>
+            <p>
+              anda dapat membuat akun Github terlebih dahulu di <a href="https://github.com" class="link-info">https://github.com</a>. Dan jika anda belum
+              menginstall git pada komputer anda, maka anda dapat mengunduh lalu menginstall git di
+              komputer anda di <a href="https://git-scm.com/downloads" class="link-info">https://git-scm.com/downloads</a>.
+            </p>
+            <br/>
+            <h3>
+              2.	Buka website Github lalu login menggunakan akun anda. Setelah itu, anda buat <i>repository</i> 
+              baru dengan nama &lt;username anda&gt;.github.io seperti pada gambar di bawah.
+            </h3>
+            <br/>
+            <img src="img/UTS_01.png" alt="github repository" width="750">
+            <p>
+              Apabila sudah, lalu klik <i>create repository</i>.
+            </p>
+            <br/>
+            <h3>
+              3. Lalu ke file anda klik kanan lalu klik git bash here maka akan kebuka git bash dan inisiasi email dan username anda
+            <img src="img/UTS_02.png" alt="github repository" width="750">
+            </h3>
+            <br/>
+            <br>
+            <br>
+            <h3>
+              4.	Ketik "git init" untuk membuat <i>local git repository</i> pada folder web anda.
+            </h3>
+            <br>
+            <br>
+            <br>
+            <h3>
+              5. Ketik "git add *" untuk menambahkan semua file yang ada pada folder ke staging area tambahkan bintang untung menambahkan lebih dari 1 file
+            </h3>
+            <br>
+            <br>
+            <br>
+            <h3>
+              6. Ketik "git commit -m "UTS ALPRO 2"” untuk memindahkan file yang saat ini berada di staging area untuk masuk ke repository dan git akan mencatat perubahan yang dimasukan ke repository-nya dengan diberi pesan "UTS ALPRO 2".
+            </h3>
+            <br>
+            <br>
+            <br>
+            <h3>
+              7.	Ketik "git branch -M main" untuk membuat <i>branch</i> baru dengan nama "main".
+            </h3>
+            <br>
+            <br>
+            <br>
+            <h3>
+              8.	Ketik "git remote add origin https: //github.com/ kevinsimorangkir/ kevinsimorangkir.github.io.git" untuk memilih target 
+              <i>repository</i> Github Pages yang sebelumnya sudah anda buat.
+            </h3>
+            <br>
+            <br>
+            <br>
+            <h3>
+              9.	Ketik "git push -u origin main" untuk melakukan <i>push local git repository</i> ke Github <i>repository</i> 
+              yang sudah dibuat sebelumnya. Apabila belum pernah melakukan proses ini, maka kita akan diperintahkan untuk login ke akun 
+              Github kita terlebih dahulu untuk melakukan autentikasi.
+            </h3>
+            <br>
+            <img src="img/UTS_05.png" alt="repository" width="750">
+            <br>
+            <br>
+            <h3>
+              10. Setelah itu, ke Github lalu refresh browser anda pada repository yang sudah dibuat. Apabila setelah di refresh tampilannya sudah seperti pada gambar artinya local git repository kita telah berhasil di-clone ke Github repository.
+            </h3>
+            <br>
+            <h3>
+              11.	Terakhir, cek website anda dengan alamat sama dengan nama <i>repository</i>-nya yaitu  
+              &lt;username anda&gt;.github.io di browser anda. Bisa kita lihat pada gambar di bawah bahwa  dapat diakses maka website anda berhasil terbuat
+            </h3>
+            <br>
+            <img src="img/uts_04.png" alt="finally" width="750">
+            <br>
+            <br>
+            <p>Penulis: Kevin Caesar</p>
+            <br>
+            <br>
+            <p>
+            <a
+              href="https://drive.google.com/file/d/15M3bWoDrBuo3QHZtqt58Pj4yomtZc1FE/view?usp=sharing"
+              target="_blank"
+              class="btn btn-basic"
+              ><i class="fa fa-file-pdf-o"></i> Laporan saya</a>
+            </p>
+            <ul>
+              <li>
+                <a href="https://www.datacamp.com/community/tutorials/git-push-pull" 
+                class="link-info" 
+                target="_blank">
+                https://www.datacamp.com/community/tutorials/git-push-pull
+                </a>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir isi -->
+    <!-- Footer -->
+    <footer id="footer">
+      <p class="text-center text-light">Copyright &copy; Kevin C 2021</p>
+    </footer>
+    <!-- End Footer -->
+  </body>
+  <script>
+    window.onscroll = function () {
+      scrollFunction();
+    };
+    function scrollFunction() {
+      if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
+        document.getElementById('main-nav').style.backgroundColor = 'rgba(81, 94, 99, 1)';
+      } else {
+        document.getElementById('main-nav').style.backgroundColor = 'rgba(81, 94, 99, 0)';
+      }
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll > 120) {
+          $('.navbar').addClass('navbar-dark');
+          $('.navbar').removeClass('navbar-light');
+        } else {
+          $('.navbar').addClass('navbar-light');
+          $('.navbar').removeClass('navbar-dark');
+        }
+      });
+    });
+  </script>
+</html>
